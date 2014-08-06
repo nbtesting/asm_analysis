@@ -8,13 +8,13 @@ form {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top: -150px;
-	margin-left: -200px;
+	margin-top: -145px;
+	margin-left: -150px;
 }
 
 .logo {
 	font-family: Helvetica;
 	font-size: 32px;
-	padding-left: 75px;
+	padding-left: 25px;
 	padding-bottom: 12px;
 }
