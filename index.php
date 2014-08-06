@@ -14,6 +14,7 @@ echo <<<_END
 	
 	<body>
 		<form method="post" action="analysis.php">
+		<div class="logo"> ASM Analysis <br /> </div>
 			<label> Search User: 
 				<input type="text" name="name" size="30" maxlength="35"/>
 			</label>
