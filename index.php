@@ -9,14 +9,14 @@ echo <<<_END
 
 	<head>
 		<title>ASM Analysis</title>
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" type="text/css"  href="main.css">
 	</head>
 	
 	<body>
-		Your name is $name<br />
 		<form method="post" action="analysis.php">
-			Search User:
-			<input type="text" name="name" size="30" maxlength="35" value="Firstname Lastname"/>
+			<label> Search User: 
+				<input type="text" name="name" size="30" maxlength="35"/>
+			</label>
 			<input type="submit" />
 		</form>
 	</body>
